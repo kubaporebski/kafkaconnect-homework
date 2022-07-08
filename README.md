@@ -46,6 +46,9 @@ For running the GCS connector, you can create your own docker image. Create your
   ```cmd
   helm upgrade --install confluent-operator confluentinc/confluent-for-kubernetes
   ```
+## Create your own connector's image
+
+- Create your own connector's docker image using provided Dockerfile and use it in confluent-platform.yaml
 
 ### Install Confluent Platform
 
