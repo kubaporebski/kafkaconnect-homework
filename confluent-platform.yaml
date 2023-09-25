@@ -34,7 +34,7 @@ metadata:
 spec:
   replicas: 1
   image:
-    application: my-gcs-connector:latest
+    application: europe-central2-docker.pkg.dev/jporebski-proj/jporebski-repo/gcs-kafka-connector:v1
     init: confluentinc/cp-init-container-operator:6.1.6.0
   dependencies:
     kafka:
