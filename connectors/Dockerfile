@@ -1,8 +1,8 @@
-FROM confluentinc/cp-server-connect-operator:6.1.0.0 AS base
+FROM confluentinc/cp-server-connect-operator:6.1.6.0 AS base
 
 USER root
 
-RUN confluent-hub install --no-prompt confluentinc/kafka-connect-gcs-source:1.4.11 \
-    && confluent-hub install --no-prompt confluentinc/kafka-connect-gcs:5.5.10
+RUN confluent-hub install --no-prompt confluentinc/kafka-connect-gcs-source:2.5.7 \
+    && confluent-hub install --no-prompt confluentinc/kafka-connect-gcs:10.1.7
 
 USER user
