@@ -1,3 +1,4 @@
 .idea
 *.hcl
 .terraform
+terraform/terraform.plan
