@@ -1,3 +1,7 @@
+# Kafka Connect homework
+
+---
+
 # M11_KafkaConnect_Json_GCP
 1) Create your own project on GCP (currently Google offers trial accounts up to 300$).
 2) Install Google Cloud CLI (gcloud & gsutil), Kubernetes controls (kubectl) and spark on your host machine.
